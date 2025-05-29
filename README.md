@@ -4,7 +4,6 @@ O usuário escolhe produtos, informa quantidades, e o sistema calcula o valor to
 
 from shiny import App, ui, render, reactive
 
-# Lista de produtos e preços
 produtos = {
     "Arroz": 5.00,
     "Feijão": 7.00,
